@@ -6,7 +6,15 @@ public class HelloWorld {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Введіть ваше імя");
 		String str = sc.next();
-	System.out.println("Hello "+str);
+		System.out.println("Введіть назву групи");
+		String str1 = sc.next();
+		if(str1=="свої"){
+			System.out.println("З поверненням"+ str);
+		}
+		else if(str1=="чужі"){
+			System.out.println("Вітаємо вас"+ str);
+		}
+	
 
 	}
 
